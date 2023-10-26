@@ -1,0 +1,25 @@
+services:
+  seq:
+    image: datalust/seq
+    ports:
+      - 5341:80
+    environment:
+      - ACCEPT_EULA=Y
+ 
+  rmq:
+    image: rabbitmq:3-management
+    ports:
+      - 15672:15672
+      - 5672:5672
+  
+  app1:
+    build: App1
+    environment:
+      RabbitMq__Host: rmq
+      ASPNETCORE_ENVIRONMENT: development
+  
+  app2:
+    build: App2
+    environment:
+      RabbitMq__Host: rmq
+      ASPNETCORE_ENVIRONMENT: development

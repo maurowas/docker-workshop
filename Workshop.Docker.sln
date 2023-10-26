@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "App1\App1.csproj", "{B426957F-9C11-4F93-AA2B-6932677B4F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2", "App2\App2.csproj", "{13A182F5-9FBE-4BAF-A1DA-B00698D20C30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{68FA32CF-FEF7-423A-A5A0-CDFF66670BAB}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B426957F-9C11-4F93-AA2B-6932677B4F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B426957F-9C11-4F93-AA2B-6932677B4F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B426957F-9C11-4F93-AA2B-6932677B4F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B426957F-9C11-4F93-AA2B-6932677B4F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A182F5-9FBE-4BAF-A1DA-B00698D20C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A182F5-9FBE-4BAF-A1DA-B00698D20C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A182F5-9FBE-4BAF-A1DA-B00698D20C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A182F5-9FBE-4BAF-A1DA-B00698D20C30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
